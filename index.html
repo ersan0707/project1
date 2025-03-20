@@ -26,30 +26,30 @@
         <img src="./images/logo.png" alt="logo" />
       </a>
       <nav class="navbar">
-        <a href="#" class="active">Home</a>
-        <a href="#">About</a>
-        <a href="#">Menu</a>
-        <a href="#">Products</a>
-        <a href="#">Rewiev</a>
-        <a href="#">Contact</a>
-        <a href="#">Blogs</a>
+        <a href="#home" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="menu.html">Menu</a>
+        <a href="products.html">Products</a>
+        <a href="#rewiev">Rewiev</a>
+        <a href="#contact">Contact</a>
+        <a href="#blogs">Blogs</a>
       </nav>
       <div class="buttons">
-        <button>
+        <button id="search-btn">
           <i class="fas fa-search"></i>
         </button>
-        <button>
+        <button id="cart-btn">
           <i class="fas fa-shopping-cart"></i>
         </button>
         <button id="menu-btn">
           <i class="fas fa-bars"></i>
         </button>
       </div>
-      <div class="search-form active">
+      <div class="search-form">
         <input type="text" class="search-input" id="search-box" placeholder="search here">
         <i class="fas fa-search"></i>
       </div>
-      <div class="cart-items-container">
+      <div class="cart-items-container ">
         <div class="cart-item">
           <i class="fas fa-times"></i>
           <img src="./images/menu-1.png" alt="menu"/>
@@ -88,7 +88,7 @@
     <!--Header section-end-->
 
     <!--Home section-start-->
-    <section class="home">
+    <section class="home" id="home">
       <div class="content">
         <h3>EXPRESS HOME DELIVERY</h3>
         <p>
@@ -101,7 +101,7 @@
     <!--Home section-end-->
 
     <!--Menu section-start-->
-    <section class="menu">
+    <section class="menu" id="menu">
       <h1 class="heading">OUR<span> MENU</span></h1>
       <div class="box-container">
         <div class="box">
@@ -156,7 +156,7 @@
     <!--Menu section-end-->
 
     <!--Products section-start-->
-    <section class="products">
+    <section class="products" id="products">
       <h1 class="heading">OUR<span> PRODUCTS</span></h1>
       <div class="box-container">
         <div class="box">
@@ -238,7 +238,7 @@
     <!--Products section-end-->
 
     <!--About section start-->
-<section class="about">
+<section class="about" id="about">
   <h1 class="heading">ABOUT<span> US</span></h1>
   <div class="row">
     <div class="image">
@@ -257,7 +257,7 @@
 
     <!--Rewiev section start-->
 
-    <section class="rewiev">
+    <section class="rewiev" id="rewiev">
       <h1 class="heading">customer's<span> review</span></h1> 
       <div class="box-container">
         <div class="box">
@@ -308,7 +308,7 @@
 
     <!--Contact section start-->
 
-    <section class="contact">
+    <section class="contact" id="contact">
       <h1 class="heading">contact<span> us</span></h1>
       <div class="row">
         <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3190.1618587188295!2d30.6748372747041!3d36.910394261482054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c38fd164868db5%3A0xca20d9b5a14f3ad0!2s%C3%96zdilekPark%20Antalya%20AVM!5e0!3m2!1str!2str!4v1742293197284!5m2!1str!2str" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -412,6 +412,6 @@
       
     </section>
     <!--Footer section end-->
-    <script src="js/script.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>
